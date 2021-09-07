@@ -10,4 +10,5 @@
     <color name="dark_gray">#202020</color>
     <color name="dark_gray_bar">#121212</color>
     <color name="green">#08ab4b</color>
+    <color name="dark_gray_press">#1A1A1A</color>
 </resources>

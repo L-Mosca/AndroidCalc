@@ -17,7 +17,21 @@
 
 
     <style name="button_numeric">
-        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:background">@drawable/button_selected</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="button_equal">
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:text">@string/button_equals</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:background">@drawable/equal_state</item>
     </style>
 
     <style name="linear_layout">
@@ -27,6 +41,12 @@
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_marginStart">10dp</item>
         <item name="android:layout_marginEnd">10dp</item>
-
     </style>
+
+    <style name="visor">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
 </resources>
